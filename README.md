@@ -34,7 +34,7 @@ The goal was to create a custom VPC that separates public facing resources from 
   Placed in the public subnet to allow private resources outbound internet access without exposing them to inbound traffic.
 
 - **EC2 Instance**  
-  One EC2 instance deployed in the public subnet and one in the private subnet.
+  One EC2 instance is deployed in the public subnet and one in the private subnet.
   The public instance serves as the entry point for managing anything inside the VPC and acts as a bastion host for access into the private instance via SSH.
 
 - **Route Tables and Security Groups**  
